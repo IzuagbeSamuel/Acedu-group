@@ -1,3 +1,20 @@
 #story {
   display: none;
 }
+
+#formOne {
+  margin: 40px;
+}
+
+#letter b {
+  float: right;
+  display: block;
+}
+
+#letter {
+  display: none;
+}
+
+.salutation {
+  float: right;
+}

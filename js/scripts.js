@@ -15,7 +15,21 @@ $(document).ready(function(){
 
     $("#story").show();
     event.preventDefault();
+  })
+})
 
+$(document).ready(function(){
+  $("#formTwo").submit(function(event){
+    let name = $("#name").val();
+    let address = $("#address").val();
 
+    $(".name").append(name);
+    $(".address").append(address);
+
+    $("#letter").show();
+    $("#formTwo").hide();
+    $("h1").hide();
+    event.preventDefault();
+    
   })
 })
