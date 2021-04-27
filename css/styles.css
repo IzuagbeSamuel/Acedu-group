@@ -18,3 +18,8 @@
 .salutation {
   float: right;
 }
+
+.col-md-6{
+  float: left;
+  width: 50%;
+}

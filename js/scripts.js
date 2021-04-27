@@ -33,3 +33,26 @@ $(document).ready(function(){
     
   })
 })
+
+$(document).ready(function(){
+$("button#hello").click(
+  function(){
+  $("ul#victor").prepend("<li>hello</li>")
+
+  $("ul#webpage").prepend("<li>hello</li>")
+});
+
+$("button#goodbye").click(
+  function(){
+  $("ul#victor").append("<li>goodbye</li>")
+
+  $("ul#webpage").append("<li>goodbye</li>")
+  });
+
+  $("button#stop").click(
+    function(){
+    $("ul#victor").append("<li>stop copying me</li>")
+  
+    $("ul#webpage").append("<li>stop copying me</li>")
+    });
+});
